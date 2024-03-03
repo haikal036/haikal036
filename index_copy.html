@@ -6,112 +6,119 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="main.css">
 </head>
 <!--This html is created using Bootstrap 4.0 -->
 <body>
-  <div class=" col d-flex justify-content-center">
-    <div class="col">AHMAD HAIKAL BIN ESMARIZAM</div>
-    <div class="col">Sales & Customer Support</div>
-  </div>
+  <div class="container-fluid">
+    <div class="card">
+      <div class="card-header d-flex align-items-center flex-column">
+        <h5 class="card-title">AHMAD HAIKAL BIN ESMARIZAM</h5>
+        <p class="card-text">Sales & Customer Support</p>
+      </div>
+    </div>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
+      <!-- Navigation Bar -->
+      <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+              </li>
 
-    <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#summary">Summary</a>
+              </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#">Summary</a>
-            </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#experience">Experience</a>
+              </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#">Experience</a>
-            </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#education">Education</a>
+              </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#">Education</a>
-            </li>
-
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Project</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Money</a>
-                        <a class="dropdown-item" href="#">Learn</a>
-                        <a class="dropdown-item" href="#">Missing Link</a>
-                    </div>
-            </li>
-        </ul>
-    </div>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Project</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="#">Money</a>
+                          <a class="dropdown-item" href="#">Learn</a>
+                          <a class="dropdown-item" href="#">Missing Link</a>
+                      </div>
+              </li>
+          </ul>
+      </div>
   </nav>
 
   <!-- Navigation Bar -->
-  <nav>
+  <!--<nav>
     <a href="#contact">Contact</a>
     <a href="#summary">Summary</a>
     <a href="#experience">Experience</a>
     <a href="#education">Education</a>
-  </nav>
+  </nav>-->
 
-  <div class="section">
+  <div class="card-body">
+    <h2 class="col" id="contact">Contact Information</h2>
+    <p class="col">Email: ahmadhaikal0360@gmail.com</p>
+    <p class="col">Phone: +60197341685</p>
+    <p class="col">Website: <a href=https://www.linkedin.com/feed/ target="_blank">linkedin</a></p>
+  </div>
+
+  <!--<div class="section">
     <h2 class="section-title" id="contact">Contact Information</h2>
     <p class="info">Email: ahmadhaikal0360@gmail.com</p>
     <p class="info">Phone: +60197341685</p>
     <p class="info">Website: <a href=https://www.linkedin.com/feed/ target="_blank">linkedin</a></p>
+  </div>-->
+
+  <div class="card-body">
+    <h2 class="col" id="summary">Summary</h2>
+      <p>
+        Sales and Customer Support of Terangi Academy. Majorly handling automation of the Workshop consisting of Order, Reminder, Follow up and Adhoc tasks.
+      </p>
   </div>
 
-  <div class="section">
-    <h2 class="section-title" id="summary">Summary</h2>
-    <p>
-      Sales and Customer Support of Terangi Academy. Majorly handling automation of the Workshop consisting of Order, Reminder, Follow up and Adhoc tasks.
-    </p>
-  </div>
-
-  <div class="section">
-    <h2 class="section-title" id="experience">Experience</h2>
-    <div class="experience-item">
-      <h3>Shoppegram Sdn Bhd</h3>
-      <h3><p class="date">May 22 - Present (MARKETING)</p></h3>
-        <p>
-        - Responding to marketing queries regarding plans, packages, and activation subscriptions. <br>
-        - Providing customer support and addressing inquiries related to workshops and upselling recorded sessions. <br>
-        - Offering specialized assistance and information specifically related to workshops. <br>
-        - Managing the platform for customer support and ensuring prompt and accurate responses. <br>
-        - Creating automations support as needed for incoming Workshop or any related activities. <br>
-        - Focusing on workshop-related queries and providing excellent customer service.
-        </p>
+  <div class="card-body">
+    <h2 class="col" id="experience">Experience</h2>
+      <div class="experience-item">
+        <h3>Shoppegram Sdn Bhd</h3>
+        <h3><p class="date">May 22 - Present (MARKETING)</p></h3>
+          <p>
+          - Responding to marketing queries regarding plans, packages, and activation subscriptions. <br>
+          - Providing customer support and addressing inquiries related to workshops and upselling recorded sessions. <br>
+          - Offering specialized assistance and information specifically related to workshops. <br>
+          - Managing the platform for customer support and ensuring prompt and accurate responses. <br>
+          - Creating automations support as needed for incoming Workshop or any related activities. <br>
+          - Focusing on workshop-related queries and providing excellent customer service.
+          </p>
       </div>
 
       <div class="experience-item right-date">
-      <h3><p class="date">Nov 31 - May 21 (TECHNICAL SUPPORT)</p></h3>
-      <p>
-        • Reply customer enquiry via multiple channels such as: - Email - Live chat - Facebook, etc (social media) <br>
-        • Troubleshoot customer bugs or technical problems. <br>
-        • Update platform documentation. <br>
-        • Features testing and troubleshooting with the development team. <br>
-        • Help the marketing team with custom store development or theme customization. <br>
-        • Follow any instructions given by the supervisor or management.
-      </p>
+        <h3><p class="date">Nov 31 - May 21 (TECHNICAL SUPPORT)</p></h3>
+          <p>
+            • Reply customer enquiry via multiple channels such as: - Email - Live chat - Facebook, etc (social media) <br>
+            • Troubleshoot customer bugs or technical problems. <br>
+            • Update platform documentation. <br>
+            • Features testing and troubleshooting with the development team. <br>
+            • Help the marketing team with custom store development or theme customization. <br>
+            • Follow any instructions given by the supervisor or management.
+          </p>
       </div>
     </div>
 
     <!-- Add more experience items if needed -->
+  <div class="card-body">
+    <h2 class="col" id="education">Education</h2>
+      <div class="education-item">
+        <h3>Diploma of Science in Computer Science, University Teknologi Mara</h3>
+          <p class="date">2018 - 2021</p>
+            <!-- Add more education items if needed -->
+      </div>
   </div>
-
-  <div class="section">
-    <h2 class="section-title" id="education">Education</h2>
-    <div class="education-item">
-      <h3>Diploma of Science in Computer Science, University Teknologi Mara</h3>
-      <p class="date">2018 - 2021</p>
-    </div>
-
-    <!-- Add more education items if needed -->
-  </div>
+</div>
 
 </body>
 </html>

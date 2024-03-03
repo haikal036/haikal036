@@ -69,21 +69,3 @@ body {
   .education-item .date {
     font-size: 14px;
   }
-
-  /* Navigation Bar Styles */
-  nav {
-    background-color: #333;
-    text-align: center;
-    padding: 10px 0;
-  }
-
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 20px;
-    font-size: 18px;
-  }
-
-  nav a:hover {
-    text-decoration: underline;
-  }
